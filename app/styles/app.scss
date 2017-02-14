@@ -16,6 +16,26 @@ img {
   max-width: 100%;
 }
 
-span {
-  color: black !important;
+body{
+  background-color: indigo;
 }
+
+.label, .count {
+  color: black !important;
+  font-size: 20px;
+  font-family: helvetica, sans-serif;
+}
+
+.button-container{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+ }
+
+ #like-button{
+  background-color: #FBFBFB;
+  background-image:
+    linear-gradient(#ffffff, #615e5e);
+  box-shadow: 5px 5px 20px 0px #000000;
+  padding: 30px 60px 30px 60px;
+ }
